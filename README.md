@@ -10,13 +10,17 @@ Standard Template Library
 
 4) queue
 
-5) priority queue 
+5) priority queue (heap)
 
 6) sort
 
-7) search (set)
+7) set (red-black tree)
+key
+중복을 허용x
 
-8) table (map)
+8) map (red-black tree)
+key-value
+중복을 허용x
 
 9) graph
 
