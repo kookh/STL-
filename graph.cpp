@@ -1,8 +1,9 @@
 #include<cstdio>
 #include<vector>
+#include<algorithm>
 using namespace std;
 
-vector<int> arr[6];
+vector<int> arr[7];
 int main()
 {
 	for (int i = 0; i < 7; i++)
@@ -15,6 +16,7 @@ int main()
 
 	for (int i = 1; i <= 6; i++)
 	{
+		sort(arr[i].begin(), arr[i].end());
 		printf("%d : ", i);
 		for (int j = 0; j < arr[i].size(); j++)
 			printf("%d ", arr[i][j]);
