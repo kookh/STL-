@@ -14,13 +14,11 @@ Standard Template Library
 
 6) sort
 
-7) set (red-black tree)
-key
-중복을 허용x
+7) set 
+key / 중복을 허용x /중복을 허용 (multiset)
 
-8) map (red-black tree)
-key-value
-중복을 허용x
+8) map 
+key-value /중복을 허용x /중복을 허용 (multimap)
 
 9) graph
 
