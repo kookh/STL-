@@ -14,10 +14,10 @@ Standard Template Library
 
 6) sort
 
-7) search (set)
+7) search (set)  
 key / 중복을 허용x /중복을 허용 (multiset)
 
-8) table (map) 
+8) table (map)   
 key-value /중복을 허용x /중복을 허용 (multimap)
 
 9) graph
