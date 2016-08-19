@@ -2,13 +2,10 @@
 #include<vector>
 using namespace std;
 
-vector<int> arr[1000];
+vector<int> arr[6];
 int main()
 {
-	int a, b;
-	scanf("%d %d", &a, &b);
-
-	for (int i = 0; i < b; i++)
+	for (int i = 0; i < 7; i++)
 	{
 		int u, v;
 		scanf("%d %d", &u, &v);
@@ -16,10 +13,14 @@ int main()
 		arr[v].push_back(u);
 	}
 
-	for (int i = 1; i <= a; i++)
+	for (int i = 1; i <= 6; i++)
 	{
-		printf("%d\n", arr[i].size());
+		printf("%d : ", i);
+		for (int j = 0; j < arr[i].size(); j++)
+			printf("%d ", arr[i][j]);
+		printf("\n");
 	}
+
 
 	return 0;
 }
