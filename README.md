@@ -1,6 +1,7 @@
 # STL
 ##Standard Template Library
 
+##[Data Structure]  
 
 ###1) vector
 
@@ -12,16 +13,22 @@
 
 ###5) priority queue (heap)
 
-###6) sort
-
-###7) search (set)  
+###6) search (set)  
 key / 중복을 허용x /중복을 허용 (multiset)
 
-###8) table (map)   
+###7) table (map)   
 key-value /중복을 허용x /중복을 허용 (multimap)
 
-###9) graph  
-####9-1) DFS (Depth First Search)  
-####9-2) BFS (Breadth First Search)  
+###8) graph
+
+##[Algortihm]  
+
+###1) sort
+
+###2) permutation
+
+###3) DFS (Depth First Search)  
+
+###4) BFS (Breadth First Search)  
 
 
